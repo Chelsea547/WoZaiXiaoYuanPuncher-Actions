@@ -153,7 +153,7 @@ class WoZaiXiaoYuanPuncher:
             "myArea": "",
             "areacode": "",
             "citycode": os.environ["WZXY_CITYCODE"],
-            "towncode": "530114005000",
+            "towncode": os.environ["WZXY_TOWNCODE"],
             "userId": "",
             "timestampHeader": cur_time,
             "signatureHeader": hashlib.sha256(
